@@ -1,5 +1,6 @@
 class PetitionsController < ApplicationController
   def new
+    @petition = current_user.petitions.new
   end
 
   def create
