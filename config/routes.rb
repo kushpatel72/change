@@ -1,4 +1,16 @@
 Change::Application.routes.draw do
+  get "petitions/new"
+
+  get "petitions/create"
+
+  get "petitions/edit"
+
+  get "petitions/update"
+
+  get "petitions/show"
+
+  get "petitions/index"
+
   devise_for :users
 
   root :to => "pages#home"
