@@ -1,8 +1,12 @@
-Change Project:
-
-I tried to TDD everything, so I didn't make it terribly far. I didn't scaffold, as it is my understanding that scaffolding is antithetical to TDD. Correct me if I'm wrong about that I had some trouble with the capybara test for the name field on devise/registration forms. That is the only piece of code not under coverage. 
+I tried to TDD everything, so I didn't make it terribly far. 
+I didn't scaffold, as it is my understanding that scaffolding
+is antithetical to TDD. Correct me if I'm wrong about that I 
+had some trouble with the capybara test for the name field on 
+devise/registration forms. That is the only piece of code not 
+under coverage. 
 
 I also added some logical validations, etc. to the
 models, which were not asked for.
 
-Thanks for your time! I'd really appreciate any feedback: kushpatel72@gmail
+Thanks for your time! I'd really appreciate 
+any feedback: kushpatel72@gmail
