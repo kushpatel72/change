@@ -8,7 +8,7 @@ class User < ActiveRecord::Base
   attr_accessible :email, :password, :password_confirmation, :remember_me, :name
   # attr_accessible :title, :body
   
-  has_many :petitions
+  has_many :petitions, dependent: :destroy
   
   validates_presence_of :name
   
