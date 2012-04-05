@@ -3,7 +3,9 @@ require 'spec_helper'
 describe Devise::RegistrationsController do
 
 #can't figure out the right way to write this test. Moving past this.
-# lines 6-7 of views/devise/registrations/new.html.erb not under coverage
+#lines 7-8 of views/devise/registrations/new.html.erb not under coverage
+#lines 7-8 of views/devise/registrations/edit.html.erb not under coverage
+
 
   # describe "New Registration" do
   #   it "should have a Name field" do
